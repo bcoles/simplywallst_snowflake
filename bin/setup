@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#
+# Copyright (c) 2017 Brendan Coles <bcoles@gmail.com>
+# SimplywallstSnowflake - https://github.com/bcoles/simplywallst_snowflake
+# See the file 'LICENSE.txt' for copying permission
+#
+
+set -euo pipefail
+IFS=$'\n\t'
+set -vx
+
+bundle install
